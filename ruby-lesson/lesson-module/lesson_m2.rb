@@ -6,6 +6,7 @@ end
 
 class Product
 	include Loggable
+	# include モジュールで定義したインスタンスメソッドを呼び出せる
 
 	def title
 		log 'title is called.'
